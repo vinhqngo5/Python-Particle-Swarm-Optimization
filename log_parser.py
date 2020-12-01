@@ -15,6 +15,11 @@ flags.DEFINE_boolean('t_test', False, 'if using t-test')
 flags.DEFINE_string('type', 'star', 'type of topo')
 
 def find_mean(file_path):
+    np_array = find_data(file_path)
+    std = np.std(np_array)
+    return sum(good_infos) / len(good_infos), std
+
+def find_data(file_path):
     with open(file_path) as f:
         infos = f.readlines()
     good_infos = []
@@ -24,9 +29,7 @@ def find_mean(file_path):
     for i in range(len(good_infos)):
         good_infos[i] = float(good_infos[i].split(':')[1].strip())
     np_array = np.array(good_infos)
-    std = np.std(np_array)
-    return sum(good_infos) / len(good_infos), std
-
+    return good_infos
 
 def independent_ttest(data1, data2, alpha=0.05):
     mean1, mean2 = mean(data1), mean(data2)
@@ -62,24 +65,24 @@ def main(argv):
         for i in swam_sizes:
             file_path_1 = "/content/pyswarm/log/Rastrigin_10dims_" + FLAGS.type + "_" + str(i) + "_log.txt"
             file_path_2 = "/content/pyswarm/log/Rosenbrock_10dims_" + FLAGS.type + "_" + str(i) + "_log.txt"
-            mean_1, std_1 = find_mean(file_path_1)
-            mean_2, std_2 = find_mean(file_path_2)
-            rastrigin.append(mean_1)
-            rosenbrock.append(mean_2)
-        t_stat, df, cv, p = independent_ttest(rastrigin, rosenbrock)
-        print('t=%.3f, df=%d, cv=%.3f, p=%.3f' % (t_stat, df, cv, p))
-        # interpret via critical value
-        if abs(t_stat) <= cv:
-            print('Accept null hypothesis that the means are equal.')
-        else:
-            print('Reject the null hypothesis that the means are equal.')
-        
+            rastrigin = find_data(file_path_1)
+            rosenbrock = find_data(file_path_2)
+            print('swarm_size: {}'.format(i))
+            t_stat, df, cv, p = independent_ttest(rastrigin, rosenbrock)
+            print('t=%.3f, df=%d, cv=%.3f, p=%.3f' % (t_stat, df, cv, p))
+            # interpret via critical value
+            # if abs(t_stat) <= cv:
+            #     print('Accept null hypothesis that the means are equal.')
+            # else:
+            #     print('Reject the null hypothesis that the means are equal.')
+            
 
-        # interpret via p-value
-        if p > 0.05:
-            print('Accept null hypothesis that the means are equal.')
-        else:
-            print('Reject the null hypothesis that the means are equal.')
+            # interpret via p-value
+            if p > 0.05:
+                print('Accept null hypothesis that the means are equal.')
+            else:
+                print('Reject the null hypothesis that the means are equal.')
+            print('*'*65)
 
         
 
