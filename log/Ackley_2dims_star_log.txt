@@ -1,0 +1,101 @@
+Running the algorithm time: 1
+optimal solution: [-0.00023819  0.00082417]
+optimal f: 0.0024461016669619084
+optimal found by each particle: 
+	particle 0:
+		optimal solution of this particle: [-0.011139402949159716, 0.09520110687892125]
+		optimal f in this particle: 0.49836086119253764
+	particle 1:
+		optimal solution of this particle: [0.0007516856484340376, -0.0027724547390722]
+		optimal f in this particle: 0.008344505842025285
+	particle 2:
+		optimal solution of this particle: [-0.008065011479167836, -0.01871297241352257]
+		optimal f in this particle: 0.06865745751463592
+	particle 3:
+		optimal solution of this particle: [0.01613672734885148, 0.0059850216696142045]
+		optimal f in this particle: 0.05654979685498063
+	particle 4:
+		optimal solution of this particle: [-0.001776721356808163, 0.015236303015092267]
+		optimal f in this particle: 0.04964045128866701
+	particle 5:
+		optimal solution of this particle: [0.00534099489980492, 0.0026862820117765523]
+		optimal f in this particle: 0.017861238640030308
+	particle 6:
+		optimal solution of this particle: [0.029647452269380703, -0.05294835286972682]
+		optimal f in this particle: 0.2671941193998997
+	particle 7:
+		optimal solution of this particle: [-0.0018516012340281328, 0.020409916093211272]
+		optimal f in this particle: 0.06911027607852915
+	particle 8:
+		optimal solution of this particle: [-0.018378087053142478, 0.011494747620830442]
+		optimal f in this particle: 0.07378280984309527
+	particle 9:
+		optimal solution of this particle: [-0.06933497442419045, 0.18681851554733137]
+		optimal f in this particle: 1.3649630011778697
+	particle 10:
+		optimal solution of this particle: [0.14811074241169064, 0.003698116156489945]
+		optimal f in this particle: 0.9106823943370266
+	particle 11:
+		optimal solution of this particle: [-0.004637679334672518, 0.001924290227436943]
+		optimal f in this particle: 0.014872881243626068
+	particle 12:
+		optimal solution of this particle: [-0.04016815579053039, -0.004532036253738658]
+		optimal f in this particle: 0.15726819461824704
+	particle 13:
+		optimal solution of this particle: [-0.015455043716770974, 0.013745779773794542]
+		optimal f in this particle: 0.06986109426691556
+	particle 14:
+		optimal solution of this particle: [-0.10999033473238556, -0.16832944603212474]
+		optimal f in this particle: 1.400010389763814
+	particle 15:
+		optimal solution of this particle: [-0.0015950551707477612, 0.002556020381634605]
+		optimal f in this particle: 0.008763411746809169
+	particle 16:
+		optimal solution of this particle: [-0.001008743560382764, 0.0016388615305982512]
+		optimal f in this particle: 0.005541723742613414
+	particle 17:
+		optimal solution of this particle: [0.005348107068003195, -0.02883599924326391]
+		optimal f in this particle: 0.10569697950827717
+	particle 18:
+		optimal solution of this particle: [-0.01338576322420714, 0.008485210592950876]
+		optimal f in this particle: 0.051503405413992454
+	particle 19:
+		optimal solution of this particle: [-0.006123423464302044, -0.007621908415438174]
+		optimal f in this particle: 0.030197320884447265
+	particle 20:
+		optimal solution of this particle: [-0.01764943533487301, -0.0006532593922253249]
+		optimal f in this particle: 0.05823914118441209
+	particle 21:
+		optimal solution of this particle: [-0.00023819239152717475, 0.0008241688709483446]
+		optimal f in this particle: 0.0024461016669619084
+	particle 22:
+		optimal solution of this particle: [0.00435923116686745, -0.02113694397349619]
+		optimal f in this particle: 0.0733991371328031
+	particle 23:
+		optimal solution of this particle: [-0.0003564136664935269, -0.04090177959441782]
+		optimal f in this particle: 0.1596331763155412
+	particle 24:
+		optimal solution of this particle: [0.01432301258562756, -0.0032970455996505395]
+		optimal f in this particle: 0.04731344536281412
+	particle 25:
+		optimal solution of this particle: [0.02070944477295303, 0.00995875245321359]
+		optimal f in this particle: 0.07900344215953226
+	particle 26:
+		optimal solution of this particle: [-0.006441768949870225, -0.0001477039354728397]
+		optimal f in this particle: 0.019330047304350728
+	particle 27:
+		optimal solution of this particle: [0.002678961807363857, -0.00045601150590092975]
+		optimal f in this particle: 0.007882871661269775
+	particle 28:
+		optimal solution of this particle: [-0.006555047463809943, 0.12179008998024304]
+		optimal f in this particle: 0.6966926031169542
+	particle 29:
+		optimal solution of this particle: [-0.00264446900712933, 0.007510579344129048]
+		optimal f in this particle: 0.024208939589936307
+	particle 30:
+		optimal solution of this particle: [0.014388512671147574, 0.006443063377479852]
+		optimal f in this particle: 0.051197011811815685
+	particle 31:
+		optimal solution of this particle: [0.0008244852968929406, -0.051740487279210184]
+		optimal f in this particle: 0.21611344086330675
+*****************************************************************

@@ -1,0 +1,101 @@
+Running the algorithm time: 1
+optimal solution: [330.93321515 512.        ]
+optimal f: -822.7673525667685
+optimal found by each particle: 
+	particle 0:
+		optimal solution of this particle: [-271.0991037  -470.08684254]
+		optimal f in this particle: -679.1230892508777
+	particle 1:
+		optimal solution of this particle: [-284.56653761 -512.        ]
+		optimal f in this particle: -438.9595338006526
+	particle 2:
+		optimal solution of this particle: [-512.        -416.9389204]
+		optimal f in this particle: -527.8602487974886
+	particle 3:
+		optimal solution of this particle: [-512.         -332.41707788]
+		optimal f in this particle: -661.0319848026423
+	particle 4:
+		optimal solution of this particle: [-512.         -324.34384207]
+		optimal f in this particle: -757.3719406684137
+	particle 5:
+		optimal solution of this particle: [-408.59497408 -496.43406051]
+		optimal f in this particle: 210.4532279201619
+	particle 6:
+		optimal solution of this particle: [-327.95128348  329.82147938]
+		optimal f in this particle: -651.5954522846978
+	particle 7:
+		optimal solution of this particle: [-267.20633045 -512.        ]
+		optimal f in this particle: -448.13162861349184
+	particle 8:
+		optimal solution of this particle: [-258.38452283 -512.        ]
+		optimal f in this particle: -448.6218803369759
+	particle 9:
+		optimal solution of this particle: [ 372.90981279 -512.        ]
+		optimal f in this particle: -528.7000505360586
+	particle 10:
+		optimal solution of this particle: [-512.         -332.41287835]
+		optimal f in this particle: -661.1498952866943
+	particle 11:
+		optimal solution of this particle: [-512.         -327.95387778]
+		optimal f in this particle: -751.525158785996
+	particle 12:
+		optimal solution of this particle: [-512.         -336.16920759]
+		optimal f in this particle: -538.768745384635
+	particle 13:
+		optimal solution of this particle: [330.93321515 512.        ]
+		optimal f in this particle: -822.7673525667685
+	particle 14:
+		optimal solution of this particle: [-290.96569504 -512.        ]
+		optimal f in this particle: -432.3935920127385
+	particle 15:
+		optimal solution of this particle: [-512.         -328.58261581]
+		optimal f in this particle: -743.6369716451529
+	particle 16:
+		optimal solution of this particle: [-215.18919872 -503.78374187]
+		optimal f in this particle: -483.06351850804185
+	particle 17:
+		optimal solution of this particle: [-271.00038127 -480.60607814]
+		optimal f in this particle: -685.9780821668221
+	particle 18:
+		optimal solution of this particle: [-293.8512848 -512.       ]
+		optimal f in this particle: -428.80577693036224
+	particle 19:
+		optimal solution of this particle: [-269.32359837 -465.83801246]
+		optimal f in this particle: -664.3569142020389
+	particle 20:
+		optimal solution of this particle: [-512.         -409.65263197]
+		optimal f in this particle: -495.0925357193381
+	particle 21:
+		optimal solution of this particle: [ 347.07599357 -512.        ]
+		optimal f in this particle: -502.3730589130339
+	particle 22:
+		optimal solution of this particle: [-440.1045599  -406.29066679]
+		optimal f in this particle: -619.2343944377303
+	particle 23:
+		optimal solution of this particle: [ 411.79629655 -512.        ]
+		optimal f in this particle: -462.5772013852496
+	particle 24:
+		optimal solution of this particle: [-266.29829983 -512.        ]
+		optimal f in this particle: -448.3006292443117
+	particle 25:
+		optimal solution of this particle: [-512.          275.17914616]
+		optimal f in this particle: -762.8683953103532
+	particle 26:
+		optimal solution of this particle: [-415.13379579 -372.50106508]
+		optimal f in this particle: -700.9723623171226
+	particle 27:
+		optimal solution of this particle: [-512.         -405.06950332]
+		optimal f in this particle: -444.77159977127377
+	particle 28:
+		optimal solution of this particle: [-506.77778427 -416.53958853]
+		optimal f in this particle: -558.8067119646759
+	particle 29:
+		optimal solution of this particle: [-512.         -419.28852645]
+		optimal f in this particle: -525.4984466010327
+	particle 30:
+		optimal solution of this particle: [-512.         -319.88582597]
+		optimal f in this particle: -652.2183398969617
+	particle 31:
+		optimal solution of this particle: [-256.54560617 -512.        ]
+		optimal f in this particle: -448.41607824730954
+*****************************************************************
