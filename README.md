@@ -7,6 +7,7 @@
   <li>Toàn bộ ảnh gif sẽ được tự generate, hiển thị trong file Notebook và được lưu trong thư mục result/<li>
   <li>Có thể tune các tham số truyền vào bằng các argument truyền vào</li>
 </ul>
+
 ## II. Báo cáo:
 Toàn bộ báo cáo được hiển thị trong file notebook bao gồm:
 <ul>
