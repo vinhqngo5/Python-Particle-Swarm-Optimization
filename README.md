@@ -4,7 +4,7 @@
   <li>Mở file PSO_tutorial.ipynb bằng Colab</li>
   <li>Ấn ctrl + F10 để chạy toàn bộ code</li>
   <li>Toàn bộ file Log sẽ được xuất ra trong thư mục Log/</li>
-  <li>Toàn bộ ảnh gif sẽ được tự generate, hiển thị trong file Notebook và được lưu trong thư mục result/<li>
+  <li>Toàn bộ ảnh gif sẽ được tự generate, hiển thị trong file Notebook và được lưu trong thư mục result/ </li>
   <li>Có thể tune các tham số truyền vào bằng các argument truyền vào</li>
 </ul>
 
