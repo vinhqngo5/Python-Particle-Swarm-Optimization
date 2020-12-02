@@ -13,6 +13,6 @@ def gif_init(folder_path):
         images.append(imageio.imread(file_path))
         
     gif_name = os.path.basename(folder_path)
-    imageio.mimsave('/content/pyswarm/result/{}.gif'.format(gif_name), images, duration=0.5)
+    imageio.mimsave('/content/pyswarm/result/{}.gif'.format(gif_name), images, duration=0.25)
 
 
