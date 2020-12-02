@@ -69,7 +69,7 @@ def main(argv):
             print('swarm_size: {}'.format(i))
             t_stat, df, cv, p = independent_ttest(star, ring)
             print('t=%.3f, df=%d, cv=%.3f, p=%.3f' % (t_stat, df, cv, p))
-            if p > 0.05:
+            if p < 0.05:
                 print('Accept null hypothesis that the distribution of means are equal.')
             else:
                 print('Reject the null hypothesis that the distribution of means are equal.')
