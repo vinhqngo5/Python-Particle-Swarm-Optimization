@@ -2,11 +2,6 @@ import matplotlib.pyplot as plt
 import math
 plt.style.use('seaborn-white')
 import numpy as np
-def col_cycler(cols):
-    count = 0
-    while True:
-        yield cols[count]
-        count = (count + 1) % len(cols)
 
 def Rastrigin_contour(x, y, A=10):
     a = x ** 2 - A * np.cos(2 * math.pi * x)
@@ -25,15 +20,16 @@ def Ackley_contour(x, y):
 
 def draw_contour(func, lb, ub, des='/content/pyswarm/plot.png', num=0, a1=[], a2=[], a3=[]):
     fig, ax = plt.subplots()
-    col_iter = ['b','g', 'c','k']
     x = np.linspace(lb, ub, 50)
     y = np.linspace(lb, ub, 40)
     X, Y = np.meshgrid(x, y)
     Z = func(X, Y)
-    ax.contour(X, Y, Z, 10, colors=col_iter, linewidths=0.4, linestyles='dashed')
-    ax.plot(a1, a2, 'ro', markersize=3)
-    fig.suptitle('gif No.{}'.format(num), fontsize=12)
-    plt.savefig(des, dpi=60, bbox_inches='tight')
+    # cs = ax.contourf(X, Y, Z)
+    cs = ax.contourf(X, Y, Z, 10, cmap = 'bone')
+    cbar = plt.colorbar(cs) 
+    ax.plot(a1, a2, 'ro', markersize=5)
+    fig.suptitle('Generation No.{}'.format(num), fontsize=12)
+    plt.savefig(des, dpi=140, bbox_inches='tight')
     return plt
 
 
